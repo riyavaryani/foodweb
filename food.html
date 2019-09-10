@@ -1,43 +1,157 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="custom.css">
+	<style>
+		#abc{
+			color: #00bab1;
+		}
+	</style>
+
 
 
 </head>
 <body>
+	<header class="hero_image">
+
 	
-	<section class="hero_image">
 		<div class="hero_wrapper">
 			<h1>THE FOOD YOU LOVE</h1>
 			<p>The bond between food and us is like other relationships in our life: complicated, evolving, demanding, and in need of constant work. But together we’ve come so far, moving from my childhood obligation to clean our plate, to a mindless need to fill up, to a truly nourishing and pleasurable exchange. That’s the real reward.</p>
 			<form class="form_code">
 				<input class="post_code" type="text" placeholder="Enter your favourite food">
-				<button type="submit">Find Food</button>
+				<button type="submit"><a href="#food" class="deco">Find Food</a></button>
 			</form>
 		</div>
-	</section>
+	
+</header>
+<section>
+            <div>
+                <h2>SHAPING THE FUTURE OF FOOD</h2>
+                <p class = "long-copy">
+                    We are committed to nurturing a neutral platform and are helping food establishments maintain high standards through Hyperpure. Food Hygiene Ratings is a coveted mark of quality among our restaurant partners.We promise to give you the best food.
+                </p>
+                
+            </div>
+        </section>
+        <section id="food">
+        <h2 class="diff-color"><u>DIFFERENT INDIAN CUISINES</u></h2>
+        	</section>
+     <div class="column">
+    <img src="punjabi.jpg" alt="punjabi" style="width:100%">
+    <h2>PUNJABI</h2>
+    <p>The food of Punjab is meant for the strong-hearted. It is rich in flavours and has a liberal dose of ghee (clarified butter) and spices. Punjab has an abundance of milk and therefore milk products are an important part of daily diet. No meal is complete without large glassfuls of butter milk or lassi (yoghurt drink).</p>
+    <p>
+    	<ul class="list-items">
+    		<b>
+    		<li>SARSO DA SAAG</li>
+    		<li>CHHOLE BHATURE</li>
+    		<li>DAL MAKHANI</li>
+    		<li>PANEER TIKKA</li>
+    	</b>
+    	</ul>
+    </p>
 
-		<section class="product">
-			<div class="product_list">
-				<img class="img_responsive" src="noodles.jpg">
-<h2 class="product_heading">Spaghetti Noodles</h2>
-<p>Spaghetti is essentially a long, thin, cylindrical, solid pasta. It is made of milled wheat and water. Italian spaghetti is made from durum wheat semolina, but elsewhere it may be made with other kinds of flour (multi-grain/ whole wheat). Noodle is the base for both Spaghetti and Chowmein.</p>
-			</div>
-			<div class="product_list">
-				<img class="img_responsive" src="dosa.jpg">
-<h2 class="product_heading">Dosa</h2>
-<p>A dosa is a cooked flat thin layered rice batter, originating from the Indian subcontinent, made from a fermented batter. It is somewhat similar to a crepe in appearance. Its main ingredients are rice and black gram ground together in a fine, smooth batter with a dash of salt.</p>
-			</div>
-			<div class="product_list">
-				<img class="img_responsive" src="biryani3.jpeg">
-<h2 class="product_heading">Biryani</h2>
-<p>A world-renowned Indian dish, biryani takes time and practice to make but is worth every bit of the effort. Long-grained rice (like basmati) flavored with exotic spices, such as saffron, is layered with lamb, chicken, fish, or vegetables, and a thick gravy. The dish is then covered, its lid secured with dough, and then the biryani is cooked over a low flame. This is definitely a special occasion dish.</p>
-			</div>
+  </div>
+  <div class="column">
+    <img src="south.jpg" alt="south" style="width:100%">
+    <h2>SOUTH INDIAN</h2>
+    <p>The cuisine belongs to the money-lending community of Chettiars who were originally from the deep south of the state but whose trade links took them far and wide into South East Asia. The wealth of the community is reflected/in its food, which is liberal in its use of oils, meats and spices. They do a variety of vegetarian dishes.</p>
+    <p>
+    	<ul class="list-items">
+    		<b>
+    		<li>DOSA</li>
+    		<li>IDLI SAMBHAR</li>
+    		<li>UTTAPAM</li>
+    		<li>RASAM RICE</li>
+    	</b>
+    	</ul>
+    </p>
 
-		</section>
+  </div>
+  <div class="column">
+    <img src="mughalai.jpg" alt="mughalai" style="width:100%">
+    <h2>MUGHALAI</h2>
+    <p>India best known cuisine came from the Mughals and along with European cooking, influenced the royal kitchens However, the common man kitchen in Rajasthan remained unaffected and the simplest ingredients go into preparing most dishes. The food owes much to the demands and ingenuity of the lifestyle of the people.</p>
+    <p>
+    	<ul class="list-items">
+    		<b>
+    		<li>BIRYANI</li>
+    		<li>KEBAB</li>
+    		<li>MUGHALAI PARATHA</li>
+    		<li>MURG TANDOOR</li>
+    	</b>
+    	</ul>
+    </p>
+
+  </div>   
+        <section>   
+                <h2 class="font-color">.</h2>
+                <div class="container">
+                    <h2 class="font-color">HELP US IMPROVE</h2>
+                <form>
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text" name="firstname" placeholder="FirstName">
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" name="lastname" placeholder="LastName">
+                    <label for="city">Your City</label>
+                    <select id="city" name="city">
+                        <option value="delhi">Delhi</option>
+                         <option value="mumbai">Mumbai</option>
+                          <option value="chennai">Chennai</option>
+                           <option value="kolkata">Kolkata</option>
+                       </select>
+                       <label for="review">Your Reviews</label>
+                       <textarea id="review" name="review" placeholder="Write Here" style="200px"></textarea>
+                       <input type="submit" name="submit" style="margin-left: 46%">
+                   </form>
+               </div>
+        </section>
+
+        
+        <section>
+            
+        		<h2 class="font-color"><u>CUSTOMER REVIEWS</u></h2>
+        		<div class="new-section">
+        			<p> Not very heavy on the pocket, this restaurant serves the best Indian food in Ahmedabad. It is a multi-cuisine restaurant specializing in Indian cuisine. It remains open from 11 a.m.-3 p.m.</p>
+        			<p> &mdash; Riya Varyani</p>
+        	</div>
+        	<div class="new-section">
+        		<p>This Mughlai restaurant is a huge gift for food lovers. It remains open from 12 noon-3:30 p.m. and from 7 p.m.-11 p.m. It is one of the places to sell the best Indian food in Ahmedabad.</p>
+        		<p> &mdash; Riya Varyani</p>
+        	</div>
+        	<div class="new-section">
+        		<p>This light on the pocket and heavy on taste restaurant are extremely rich in flavors and taste. This restaurant has built a niche for itself and continues to work in order to achieve greater heights.</p>
+        		<p> &mdash; Riya Varyani</p>
+        	</div>
+
+
+        </section>
+       <footer>
+        <small>Visit</small>
+        <div class="button-wrapper">
+            <a href="https://www.facebook.com/riya.varyani.31" class="round-button"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/_riyav/" class="round-button"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://github.com/riyavaryani" class="round-button"><i class="fa fa-github" aria-hidden="true"></i></a>
+            
+        </div>
+    </footer>
+
+
+
+
+
+
+
+		
+		
+
 		
 	</body>
 	</html>
